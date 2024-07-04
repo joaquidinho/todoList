@@ -1,0 +1,98 @@
+body {
+  background-color: #04577a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #9c5858;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(188, 5, 5, 0.2);
+  position: relative;
+}
+
+.card.important {
+  background-color: #f44336;
+  color: white;
+}
+
+.card h5 {
+  margin: 0 0 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
